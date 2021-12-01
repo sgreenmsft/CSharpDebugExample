@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "managed",
+      "name": "CSharpDebugExample.exe",
+      "project": "CSharpDebugExample\\exe\\CSharpDebugExample.exe",
+      "projectTarget": "",
+      "stopOnEntry": true
+    }
+  ]
+}
