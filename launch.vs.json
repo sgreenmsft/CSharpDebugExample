@@ -3,10 +3,9 @@
   "defaults": {},
   "configurations": [
     {
-      "type": "managed",
+      "type": "customDebugSettings",
       "name": "CSharpDebugExample.exe",
-      "project": "CSharpDebugExample\\exe\\CSharpDebugExample.exe",
-      "projectTarget": "",
+      "project": "CSharpDebugExample\\CSharpDebugExample.csproj",
       "stopOnEntry": true
     }
   ]

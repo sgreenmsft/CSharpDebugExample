@@ -1,0 +1,44 @@
+{
+  "BuildIncremental": {
+    "Enabled": false
+  },
+  "ExcludedItems": [
+    ".git",
+    ".vs",
+    ".vscode"
+  ],
+  "Indexing": {
+    "Enabled": true
+  },
+  "Logger": {
+    "EnableVsLogging": false,
+    "LoggingLevel": "Info"
+  },
+  "debugExtensions": {
+    "customDebugSettings": {
+      "vsDebugEngineGuid": "{449EC4CC-30D2-4032-9256-EE18EB41B62B}",
+      "VsDebugTargetInfo4": {
+        "bstrExe": "C:\\temp\\DebugExample\\CSharpDebugExample\\exe\\SomeOtherApp.exe",
+        "bstrCurDir": "${debugInfo.currentDir}"
+      },
+      "templates": [
+        {
+          "templateId": "launch",
+          "displayName": "{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}:6012",
+          "description": "{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}:8231",
+          "fileExtensions": [ "*.exe" ]
+        }
+      ],
+      "schema": {
+        "definitions": {
+          "managedLayout": {
+            "allOf": [
+              { "$ref": "#/definitions/default" }
+            ]
+          }
+        },
+        "configuration": "#/definitions/managedLayout"
+      }
+    }
+  }
+}
